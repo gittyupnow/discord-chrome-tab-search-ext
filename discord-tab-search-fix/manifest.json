@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Google Chrome Tab Search Fix",
+  "version": "1.0.0",
+  "description": "Keep Cmd+Shift+A available for Chrome Tab Search when Discord is focused.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://discord.com/*",
+        "https://ptb.discord.com/*",
+        "https://canary.discord.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false,
+      "world": "ISOLATED"
+    }
+  ]
+}
