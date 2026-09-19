@@ -6,7 +6,7 @@ Keep Command + Shift + A available for Chrome's native Tab Search while
 Discord's website has focus. This does not change the Discord desktop app.
 
 INSTALL ON YOUR MAC
-1. Unzip discord-tab-search-fix.zip.
+1. Unzip
 2. Move the extracted discord-tab-search-fix folder somewhere permanent.
    Keep it there while the extension is installed.
 3. In Chrome's address bar, type chrome://extensions and press Return.
